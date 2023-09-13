@@ -10,9 +10,7 @@
 		96E7369C2A866C10002A3750 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E7369B2A866C10002A3750 /* AppDelegate.swift */; };
 		96E7369E2A866C10002A3750 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E7369D2A866C10002A3750 /* SceneDelegate.swift */; };
 		96E736A02A866C10002A3750 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E7369F2A866C10002A3750 /* ViewController.swift */; };
-		96E736A32A866C10002A3750 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E736A12A866C10002A3750 /* Main.storyboard */; };
 		96E736A52A866C10002A3750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96E736A42A866C10002A3750 /* Assets.xcassets */; };
-		96E736A82A866C10002A3750 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E736A62A866C10002A3750 /* LaunchScreen.storyboard */; };
 		96E736B32A866C14002A3750 /* stocksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E736B22A866C14002A3750 /* stocksTests.swift */; };
 		96E736BD2A866C14002A3750 /* stocksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E736BC2A866C14002A3750 /* stocksUITests.swift */; };
 		96E736BF2A866C14002A3750 /* stocksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E736BE2A866C14002A3750 /* stocksUITestsLaunchTests.swift */; };
@@ -40,9 +38,7 @@
 		96E7369B2A866C10002A3750 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96E7369D2A866C10002A3750 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		96E7369F2A866C10002A3750 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		96E736A22A866C10002A3750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96E736A42A866C10002A3750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		96E736A72A866C10002A3750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96E736A92A866C10002A3750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96E736AE2A866C14002A3750 /* stocksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stocksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E736B22A866C14002A3750 /* stocksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stocksTests.swift; sourceTree = "<group>"; };
@@ -102,9 +98,7 @@
 				96E7369B2A866C10002A3750 /* AppDelegate.swift */,
 				96E7369D2A866C10002A3750 /* SceneDelegate.swift */,
 				96E7369F2A866C10002A3750 /* ViewController.swift */,
-				96E736A12A866C10002A3750 /* Main.storyboard */,
 				96E736A42A866C10002A3750 /* Assets.xcassets */,
-				96E736A62A866C10002A3750 /* LaunchScreen.storyboard */,
 				96E736A92A866C10002A3750 /* Info.plist */,
 			);
 			path = stocks;
@@ -231,9 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96E736A82A866C10002A3750 /* LaunchScreen.storyboard in Resources */,
 				96E736A52A866C10002A3750 /* Assets.xcassets in Resources */,
-				96E736A32A866C10002A3750 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,25 +288,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		96E736A12A866C10002A3750 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				96E736A22A866C10002A3750 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		96E736A62A866C10002A3750 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				96E736A72A866C10002A3750 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		96E736C12A866C14002A3750 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -323,11 +296,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = stocks/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -350,11 +323,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = stocks/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
