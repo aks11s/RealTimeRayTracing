@@ -24,6 +24,8 @@
 		96E737FB2AC30C9A002A3750 /* AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E737FA2AC30C9A002A3750 /* AppFonts.swift */; };
 		96E737FD2AC30C9D002A3750 /* Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E737FC2AC30C9D002A3750 /* Spacing.swift */; };
 		96E7389E2AC34E48002A3750 /* PageDotsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E7389D2AC34E48002A3750 /* PageDotsView.swift */; };
+		96E738E32AC38059002A3750 /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E738E22AC38059002A3750 /* OnboardingPage.swift */; };
+		96E738E52AC3805C002A3750 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E738E42AC3805C002A3750 /* OnboardingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		96E737FA2AC30C9A002A3750 /* AppFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFonts.swift; sourceTree = "<group>"; };
 		96E737FC2AC30C9D002A3750 /* Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacing.swift; sourceTree = "<group>"; };
 		96E7389D2AC34E48002A3750 /* PageDotsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageDotsView.swift; sourceTree = "<group>"; };
+		96E738E22AC38059002A3750 /* OnboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
+		96E738E42AC3805C002A3750 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,7 @@
 				96E737492AB2DAD3002A3750 /* App */,
 				96E7374A2AB2DAD9002A3750 /* Navigator */,
 				96E737F62AC30C97002A3750 /* Core */,
+				96E738DF2AC38059002A3750 /* Presentation */,
 			);
 			path = stocks;
 			sourceTree = "<group>";
@@ -185,6 +190,31 @@
 				96E7389D2AC34E48002A3750 /* PageDotsView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		96E738DF2AC38059002A3750 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				96E738E02AC38059002A3750 /* Features */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		96E738E02AC38059002A3750 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				96E738E12AC38059002A3750 /* Onboarding */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		96E738E12AC38059002A3750 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				96E738E22AC38059002A3750 /* OnboardingPage.swift */,
+				96E738E42AC3805C002A3750 /* OnboardingViewController.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,6 +367,8 @@
 				96E737FB2AC30C9A002A3750 /* AppFonts.swift in Sources */,
 				96E737FD2AC30C9D002A3750 /* Spacing.swift in Sources */,
 				96E7389E2AC34E48002A3750 /* PageDotsView.swift in Sources */,
+				96E738E32AC38059002A3750 /* OnboardingPage.swift in Sources */,
+				96E738E52AC3805C002A3750 /* OnboardingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
