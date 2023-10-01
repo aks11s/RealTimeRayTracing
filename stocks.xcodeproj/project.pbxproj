@@ -27,6 +27,8 @@
 		96E738E32AC38059002A3750 /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E738E22AC38059002A3750 /* OnboardingPage.swift */; };
 		96E738E52AC3805C002A3750 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E738E42AC3805C002A3750 /* OnboardingViewController.swift */; };
 		96E739542AC6EB26002A3750 /* AuthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E739532AC6EB26002A3750 /* AuthTextField.swift */; };
+		96E739A72AC9E54F002A3750 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E739A62AC9E54F002A3750 /* AuthViewController.swift */; };
+		96E739A92AC9E552002A3750 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E739A82AC9E552002A3750 /* AuthViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		96E738E22AC38059002A3750 /* OnboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
 		96E738E42AC3805C002A3750 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		96E739532AC6EB26002A3750 /* AuthTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTextField.swift; sourceTree = "<group>"; };
+		96E739A62AC9E54F002A3750 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		96E739A82AC9E552002A3750 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				96E738E12AC38059002A3750 /* Onboarding */,
+				96E739A52AC9E54F002A3750 /* Auth */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -218,6 +223,15 @@
 				96E738E42AC3805C002A3750 /* OnboardingViewController.swift */,
 			);
 			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		96E739A52AC9E54F002A3750 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				96E739A62AC9E54F002A3750 /* AuthViewController.swift */,
+				96E739A82AC9E552002A3750 /* AuthViewModel.swift */,
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -373,6 +387,8 @@
 				96E738E32AC38059002A3750 /* OnboardingPage.swift in Sources */,
 				96E738E52AC3805C002A3750 /* OnboardingViewController.swift in Sources */,
 				96E739542AC6EB26002A3750 /* AuthTextField.swift in Sources */,
+				96E739A72AC9E54F002A3750 /* AuthViewController.swift in Sources */,
+				96E739A92AC9E552002A3750 /* AuthViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
