@@ -29,6 +29,10 @@
 		96E739542AC6EB26002A3750 /* AuthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E739532AC6EB26002A3750 /* AuthTextField.swift */; };
 		96E739A72AC9E54F002A3750 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E739A62AC9E54F002A3750 /* AuthViewController.swift */; };
 		96E739A92AC9E552002A3750 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E739A82AC9E552002A3750 /* AuthViewModel.swift */; };
+		96E739C52AD7BD2B002A3750 /* TickerRESTDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E739C42AD7BD2B002A3750 /* TickerRESTDTO.swift */; };
+		96E739C82AD7BD2E002A3750 /* BinanceEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E739C72AD7BD2E002A3750 /* BinanceEndpoint.swift */; };
+		96E739CA2AD7BD31002A3750 /* BinanceRESTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E739C92AD7BD31002A3750 /* BinanceRESTService.swift */; };
+		96E739CC2AD7BD34002A3750 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E739CB2AD7BD34002A3750 /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +75,10 @@
 		96E739532AC6EB26002A3750 /* AuthTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTextField.swift; sourceTree = "<group>"; };
 		96E739A62AC9E54F002A3750 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		96E739A82AC9E552002A3750 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		96E739C42AD7BD2B002A3750 /* TickerRESTDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerRESTDTO.swift; sourceTree = "<group>"; };
+		96E739C72AD7BD2E002A3750 /* BinanceEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceEndpoint.swift; sourceTree = "<group>"; };
+		96E739C92AD7BD31002A3750 /* BinanceRESTService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceRESTService.swift; sourceTree = "<group>"; };
+		96E739CB2AD7BD34002A3750 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +140,7 @@
 				96E7374A2AB2DAD9002A3750 /* Navigator */,
 				96E737F62AC30C97002A3750 /* Core */,
 				96E738DF2AC38059002A3750 /* Presentation */,
+				96E739C12AD7BD2B002A3750 /* Data */,
 			);
 			path = stocks;
 			sourceTree = "<group>";
@@ -232,6 +241,41 @@
 				96E739A82AC9E552002A3750 /* AuthViewModel.swift */,
 			);
 			path = Auth;
+			sourceTree = "<group>";
+		};
+		96E739C12AD7BD2B002A3750 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				96E739C22AD7BD2B002A3750 /* Network */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		96E739C22AD7BD2B002A3750 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				96E739C32AD7BD2B002A3750 /* DTO */,
+				96E739C62AD7BD2E002A3750 /* RestApi */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		96E739C32AD7BD2B002A3750 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				96E739C42AD7BD2B002A3750 /* TickerRESTDTO.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		96E739C62AD7BD2E002A3750 /* RestApi */ = {
+			isa = PBXGroup;
+			children = (
+				96E739C72AD7BD2E002A3750 /* BinanceEndpoint.swift */,
+				96E739C92AD7BD31002A3750 /* BinanceRESTService.swift */,
+				96E739CB2AD7BD34002A3750 /* NetworkService.swift */,
+			);
+			path = RestApi;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -389,6 +433,10 @@
 				96E739542AC6EB26002A3750 /* AuthTextField.swift in Sources */,
 				96E739A72AC9E54F002A3750 /* AuthViewController.swift in Sources */,
 				96E739A92AC9E552002A3750 /* AuthViewModel.swift in Sources */,
+				96E739C52AD7BD2B002A3750 /* TickerRESTDTO.swift in Sources */,
+				96E739C82AD7BD2E002A3750 /* BinanceEndpoint.swift in Sources */,
+				96E739CA2AD7BD31002A3750 /* BinanceRESTService.swift in Sources */,
+				96E739CC2AD7BD34002A3750 /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
