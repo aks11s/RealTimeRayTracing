@@ -34,6 +34,12 @@
 		96E739CA2AD7BD31002A3750 /* BinanceRESTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E739C92AD7BD31002A3750 /* BinanceRESTService.swift */; };
 		96E739CC2AD7BD34002A3750 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E739CB2AD7BD34002A3750 /* NetworkService.swift */; };
 		96E73A1E2AD7F17A002A3750 /* KlineRESTDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73A1D2AD7F17A002A3750 /* KlineRESTDTO.swift */; };
+		96E73A7E2ADAFDB7002A3750 /* KlineDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73A7D2ADAFDB7002A3750 /* KlineDTO.swift */; };
+		96E73A802ADAFDBA002A3750 /* MiniTickerDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73A7F2ADAFDBA002A3750 /* MiniTickerDTO.swift */; };
+		96E73A822ADAFDBD002A3750 /* TickerDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73A812ADAFDBD002A3750 /* TickerDTO.swift */; };
+		96E73A852ADAFDC0002A3750 /* BinanceStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73A842ADAFDC0002A3750 /* BinanceStream.swift */; };
+		96E73A872ADAFDC3002A3750 /* BinanceWebSocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73A862ADAFDC3002A3750 /* BinanceWebSocketService.swift */; };
+		96E73A892ADAFDC6002A3750 /* WebSocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73A882ADAFDC6002A3750 /* WebSocketService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +87,12 @@
 		96E739C92AD7BD31002A3750 /* BinanceRESTService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceRESTService.swift; sourceTree = "<group>"; };
 		96E739CB2AD7BD34002A3750 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		96E73A1D2AD7F17A002A3750 /* KlineRESTDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlineRESTDTO.swift; sourceTree = "<group>"; };
+		96E73A7D2ADAFDB7002A3750 /* KlineDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlineDTO.swift; sourceTree = "<group>"; };
+		96E73A7F2ADAFDBA002A3750 /* MiniTickerDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniTickerDTO.swift; sourceTree = "<group>"; };
+		96E73A812ADAFDBD002A3750 /* TickerDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerDTO.swift; sourceTree = "<group>"; };
+		96E73A842ADAFDC0002A3750 /* BinanceStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceStream.swift; sourceTree = "<group>"; };
+		96E73A862ADAFDC3002A3750 /* BinanceWebSocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceWebSocketService.swift; sourceTree = "<group>"; };
+		96E73A882ADAFDC6002A3750 /* WebSocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -258,6 +270,7 @@
 			children = (
 				96E739C32AD7BD2B002A3750 /* DTO */,
 				96E739C62AD7BD2E002A3750 /* RestApi */,
+				96E73A832ADAFDC0002A3750 /* WebSocket */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -267,6 +280,9 @@
 			children = (
 				96E739C42AD7BD2B002A3750 /* TickerRESTDTO.swift */,
 				96E73A1D2AD7F17A002A3750 /* KlineRESTDTO.swift */,
+				96E73A7D2ADAFDB7002A3750 /* KlineDTO.swift */,
+				96E73A7F2ADAFDBA002A3750 /* MiniTickerDTO.swift */,
+				96E73A812ADAFDBD002A3750 /* TickerDTO.swift */,
 			);
 			path = DTO;
 			sourceTree = "<group>";
@@ -279,6 +295,16 @@
 				96E739CB2AD7BD34002A3750 /* NetworkService.swift */,
 			);
 			path = RestApi;
+			sourceTree = "<group>";
+		};
+		96E73A832ADAFDC0002A3750 /* WebSocket */ = {
+			isa = PBXGroup;
+			children = (
+				96E73A842ADAFDC0002A3750 /* BinanceStream.swift */,
+				96E73A862ADAFDC3002A3750 /* BinanceWebSocketService.swift */,
+				96E73A882ADAFDC6002A3750 /* WebSocketService.swift */,
+			);
+			path = WebSocket;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -441,6 +467,12 @@
 				96E739CA2AD7BD31002A3750 /* BinanceRESTService.swift in Sources */,
 				96E739CC2AD7BD34002A3750 /* NetworkService.swift in Sources */,
 				96E73A1E2AD7F17A002A3750 /* KlineRESTDTO.swift in Sources */,
+				96E73A7E2ADAFDB7002A3750 /* KlineDTO.swift in Sources */,
+				96E73A802ADAFDBA002A3750 /* MiniTickerDTO.swift in Sources */,
+				96E73A822ADAFDBD002A3750 /* TickerDTO.swift in Sources */,
+				96E73A852ADAFDC0002A3750 /* BinanceStream.swift in Sources */,
+				96E73A872ADAFDC3002A3750 /* BinanceWebSocketService.swift in Sources */,
+				96E73A892ADAFDC6002A3750 /* WebSocketService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
