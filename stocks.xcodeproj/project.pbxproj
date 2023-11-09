@@ -43,6 +43,9 @@
 		96E73B022ADD0B63002A3750 /* AggTradeDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73B012ADD0B63002A3750 /* AggTradeDTO.swift */; };
 		96E73B042ADD0B66002A3750 /* BookTickerDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73B032ADD0B66002A3750 /* BookTickerDTO.swift */; };
 		96E73B062ADD0B69002A3750 /* DepthDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73B052ADD0B69002A3750 /* DepthDTO.swift */; };
+		96E73B552AFD40B0002A3750 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73B542AFD40B0002A3750 /* HomeViewController.swift */; };
+		96E73B582AFD40B3002A3750 /* MarketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73B572AFD40B3002A3750 /* MarketsViewController.swift */; };
+		96E73B5B2AFD40B6002A3750 /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73B5A2AFD40B6002A3750 /* WalletViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +102,9 @@
 		96E73B012ADD0B63002A3750 /* AggTradeDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AggTradeDTO.swift; sourceTree = "<group>"; };
 		96E73B032ADD0B66002A3750 /* BookTickerDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTickerDTO.swift; sourceTree = "<group>"; };
 		96E73B052ADD0B69002A3750 /* DepthDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthDTO.swift; sourceTree = "<group>"; };
+		96E73B542AFD40B0002A3750 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		96E73B572AFD40B3002A3750 /* MarketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketsViewController.swift; sourceTree = "<group>"; };
+		96E73B5A2AFD40B6002A3750 /* WalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,6 +247,9 @@
 			children = (
 				96E738E12AC38059002A3750 /* Onboarding */,
 				96E739A52AC9E54F002A3750 /* Auth */,
+				96E73B532AFD40B0002A3750 /* Home */,
+				96E73B562AFD40B3002A3750 /* Markets */,
+				96E73B592AFD40B6002A3750 /* Wallet */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -314,6 +323,30 @@
 				96E73A882ADAFDC6002A3750 /* WebSocketService.swift */,
 			);
 			path = WebSocket;
+			sourceTree = "<group>";
+		};
+		96E73B532AFD40B0002A3750 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				96E73B542AFD40B0002A3750 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		96E73B562AFD40B3002A3750 /* Markets */ = {
+			isa = PBXGroup;
+			children = (
+				96E73B572AFD40B3002A3750 /* MarketsViewController.swift */,
+			);
+			path = Markets;
+			sourceTree = "<group>";
+		};
+		96E73B592AFD40B6002A3750 /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				96E73B5A2AFD40B6002A3750 /* WalletViewController.swift */,
+			);
+			path = Wallet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -485,6 +518,9 @@
 				96E73B022ADD0B63002A3750 /* AggTradeDTO.swift in Sources */,
 				96E73B042ADD0B66002A3750 /* BookTickerDTO.swift in Sources */,
 				96E73B062ADD0B69002A3750 /* DepthDTO.swift in Sources */,
+				96E73B552AFD40B0002A3750 /* HomeViewController.swift in Sources */,
+				96E73B582AFD40B3002A3750 /* MarketsViewController.swift in Sources */,
+				96E73B5B2AFD40B6002A3750 /* WalletViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
