@@ -46,6 +46,7 @@
 		96E73B552AFD40B0002A3750 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73B542AFD40B0002A3750 /* HomeViewController.swift */; };
 		96E73B582AFD40B3002A3750 /* MarketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73B572AFD40B3002A3750 /* MarketsViewController.swift */; };
 		96E73B5B2AFD40B6002A3750 /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73B5A2AFD40B6002A3750 /* WalletViewController.swift */; };
+		96E73BA42AFD47EF002A3750 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73BA32AFD47EF002A3750 /* HomeHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +106,7 @@
 		96E73B542AFD40B0002A3750 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		96E73B572AFD40B3002A3750 /* MarketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketsViewController.swift; sourceTree = "<group>"; };
 		96E73B5A2AFD40B6002A3750 /* WalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
+		96E73BA32AFD47EF002A3750 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -329,6 +331,7 @@
 			isa = PBXGroup;
 			children = (
 				96E73B542AFD40B0002A3750 /* HomeViewController.swift */,
+				96E73BA32AFD47EF002A3750 /* HomeHeaderView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -521,6 +524,7 @@
 				96E73B552AFD40B0002A3750 /* HomeViewController.swift in Sources */,
 				96E73B582AFD40B3002A3750 /* MarketsViewController.swift in Sources */,
 				96E73B5B2AFD40B6002A3750 /* WalletViewController.swift in Sources */,
+				96E73BA42AFD47EF002A3750 /* HomeHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
