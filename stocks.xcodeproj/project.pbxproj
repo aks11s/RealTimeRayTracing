@@ -47,6 +47,7 @@
 		96E73B582AFD40B3002A3750 /* MarketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73B572AFD40B3002A3750 /* MarketsViewController.swift */; };
 		96E73B5B2AFD40B6002A3750 /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73B5A2AFD40B6002A3750 /* WalletViewController.swift */; };
 		96E73BA42AFD47EF002A3750 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73BA32AFD47EF002A3750 /* HomeHeaderView.swift */; };
+		96E73C022AFE33B5002A3750 /* QuickActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73C012AFE33B5002A3750 /* QuickActionsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +108,7 @@
 		96E73B572AFD40B3002A3750 /* MarketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketsViewController.swift; sourceTree = "<group>"; };
 		96E73B5A2AFD40B6002A3750 /* WalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
 		96E73BA32AFD47EF002A3750 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		96E73C012AFE33B5002A3750 /* QuickActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickActionsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -332,6 +334,7 @@
 			children = (
 				96E73B542AFD40B0002A3750 /* HomeViewController.swift */,
 				96E73BA32AFD47EF002A3750 /* HomeHeaderView.swift */,
+				96E73C012AFE33B5002A3750 /* QuickActionsView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -525,6 +528,7 @@
 				96E73B582AFD40B3002A3750 /* MarketsViewController.swift in Sources */,
 				96E73B5B2AFD40B6002A3750 /* WalletViewController.swift in Sources */,
 				96E73BA42AFD47EF002A3750 /* HomeHeaderView.swift in Sources */,
+				96E73C022AFE33B5002A3750 /* QuickActionsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
