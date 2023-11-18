@@ -51,6 +51,7 @@
 		96E73C252AFFB315002A3750 /* CoinCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73C242AFFB315002A3750 /* CoinCardView.swift */; };
 		96E73C6C2AFFD9B4002A3750 /* FeatureCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73C6B2AFFD9B4002A3750 /* FeatureCardView.swift */; };
 		96E73CC32B0924B8002A3750 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73CC22B0924B8002A3750 /* ProfileViewController.swift */; };
+		96E73D3F2B094ADB002A3750 /* ProfileInfoRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73D3E2B094ADB002A3750 /* ProfileInfoRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +116,7 @@
 		96E73C242AFFB315002A3750 /* CoinCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCardView.swift; sourceTree = "<group>"; };
 		96E73C6B2AFFD9B4002A3750 /* FeatureCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCardView.swift; sourceTree = "<group>"; };
 		96E73CC22B0924B8002A3750 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		96E73D3E2B094ADB002A3750 /* ProfileInfoRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -368,6 +370,7 @@
 			isa = PBXGroup;
 			children = (
 				96E73CC22B0924B8002A3750 /* ProfileViewController.swift */,
+				96E73D3E2B094ADB002A3750 /* ProfileInfoRowView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -549,6 +552,7 @@
 				96E73C252AFFB315002A3750 /* CoinCardView.swift in Sources */,
 				96E73C6C2AFFD9B4002A3750 /* FeatureCardView.swift in Sources */,
 				96E73CC32B0924B8002A3750 /* ProfileViewController.swift in Sources */,
+				96E73D3F2B094ADB002A3750 /* ProfileInfoRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
