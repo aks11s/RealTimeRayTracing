@@ -50,6 +50,7 @@
 		96E73C022AFE33B5002A3750 /* QuickActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73C012AFE33B5002A3750 /* QuickActionsView.swift */; };
 		96E73C252AFFB315002A3750 /* CoinCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73C242AFFB315002A3750 /* CoinCardView.swift */; };
 		96E73C6C2AFFD9B4002A3750 /* FeatureCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73C6B2AFFD9B4002A3750 /* FeatureCardView.swift */; };
+		96E73CC32B0924B8002A3750 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73CC22B0924B8002A3750 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +114,7 @@
 		96E73C012AFE33B5002A3750 /* QuickActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickActionsView.swift; sourceTree = "<group>"; };
 		96E73C242AFFB315002A3750 /* CoinCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCardView.swift; sourceTree = "<group>"; };
 		96E73C6B2AFFD9B4002A3750 /* FeatureCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCardView.swift; sourceTree = "<group>"; };
+		96E73CC22B0924B8002A3750 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,6 +262,7 @@
 				96E73B532AFD40B0002A3750 /* Home */,
 				96E73B562AFD40B3002A3750 /* Markets */,
 				96E73B592AFD40B6002A3750 /* Wallet */,
+				96E73CC12B0924B8002A3750 /* Profile */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -359,6 +362,14 @@
 				96E73B5A2AFD40B6002A3750 /* WalletViewController.swift */,
 			);
 			path = Wallet;
+			sourceTree = "<group>";
+		};
+		96E73CC12B0924B8002A3750 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				96E73CC22B0924B8002A3750 /* ProfileViewController.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -537,6 +548,7 @@
 				96E73C022AFE33B5002A3750 /* QuickActionsView.swift in Sources */,
 				96E73C252AFFB315002A3750 /* CoinCardView.swift in Sources */,
 				96E73C6C2AFFD9B4002A3750 /* FeatureCardView.swift in Sources */,
+				96E73CC32B0924B8002A3750 /* ProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
