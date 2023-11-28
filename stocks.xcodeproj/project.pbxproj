@@ -53,6 +53,7 @@
 		96E73CC32B0924B8002A3750 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73CC22B0924B8002A3750 /* ProfileViewController.swift */; };
 		96E73D3F2B094ADB002A3750 /* ProfileInfoRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73D3E2B094ADB002A3750 /* ProfileInfoRowView.swift */; };
 		96E73D982B15C972002A3750 /* ProfileStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73D972B15C972002A3750 /* ProfileStorage.swift */; };
+		96E73E0E2B162FCB002A3750 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73E0D2B162FCB002A3750 /* EditProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +120,7 @@
 		96E73CC22B0924B8002A3750 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		96E73D3E2B094ADB002A3750 /* ProfileInfoRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoRowView.swift; sourceTree = "<group>"; };
 		96E73D972B15C972002A3750 /* ProfileStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileStorage.swift; sourceTree = "<group>"; };
+		96E73E0D2B162FCB002A3750 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -374,6 +376,7 @@
 			children = (
 				96E73CC22B0924B8002A3750 /* ProfileViewController.swift */,
 				96E73D3E2B094ADB002A3750 /* ProfileInfoRowView.swift */,
+				96E73E0D2B162FCB002A3750 /* EditProfileViewController.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -565,6 +568,7 @@
 				96E73CC32B0924B8002A3750 /* ProfileViewController.swift in Sources */,
 				96E73D3F2B094ADB002A3750 /* ProfileInfoRowView.swift in Sources */,
 				96E73D982B15C972002A3750 /* ProfileStorage.swift in Sources */,
+				96E73E0E2B162FCB002A3750 /* EditProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
