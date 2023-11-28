@@ -52,6 +52,7 @@
 		96E73C6C2AFFD9B4002A3750 /* FeatureCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73C6B2AFFD9B4002A3750 /* FeatureCardView.swift */; };
 		96E73CC32B0924B8002A3750 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73CC22B0924B8002A3750 /* ProfileViewController.swift */; };
 		96E73D3F2B094ADB002A3750 /* ProfileInfoRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73D3E2B094ADB002A3750 /* ProfileInfoRowView.swift */; };
+		96E73D982B15C972002A3750 /* ProfileStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73D972B15C972002A3750 /* ProfileStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +118,7 @@
 		96E73C6B2AFFD9B4002A3750 /* FeatureCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCardView.swift; sourceTree = "<group>"; };
 		96E73CC22B0924B8002A3750 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		96E73D3E2B094ADB002A3750 /* ProfileInfoRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoRowView.swift; sourceTree = "<group>"; };
+		96E73D972B15C972002A3750 /* ProfileStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -291,6 +293,7 @@
 			isa = PBXGroup;
 			children = (
 				96E739C22AD7BD2B002A3750 /* Network */,
+				96E73D962B15C972002A3750 /* Persistence */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -373,6 +376,14 @@
 				96E73D3E2B094ADB002A3750 /* ProfileInfoRowView.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		96E73D962B15C972002A3750 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				96E73D972B15C972002A3750 /* ProfileStorage.swift */,
+			);
+			path = Persistence;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -553,6 +564,7 @@
 				96E73C6C2AFFD9B4002A3750 /* FeatureCardView.swift in Sources */,
 				96E73CC32B0924B8002A3750 /* ProfileViewController.swift in Sources */,
 				96E73D3F2B094ADB002A3750 /* ProfileInfoRowView.swift in Sources */,
+				96E73D982B15C972002A3750 /* ProfileStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
