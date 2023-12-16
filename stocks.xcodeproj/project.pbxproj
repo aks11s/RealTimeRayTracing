@@ -56,6 +56,7 @@
 		96E73E0E2B162FCB002A3750 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73E0D2B162FCB002A3750 /* EditProfileViewController.swift */; };
 		96E73E2C2B2DE857002A3750 /* MarketTokenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73E2B2B2DE857002A3750 /* MarketTokenCell.swift */; };
 		96E73E2E2B2DE85A002A3750 /* MarketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73E2D2B2DE85A002A3750 /* MarketViewModel.swift */; };
+		96E73EC92B2E6740002A3750 /* MarketFilterTabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73EC82B2E6740002A3750 /* MarketFilterTabsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,6 +126,7 @@
 		96E73E0D2B162FCB002A3750 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
 		96E73E2B2B2DE857002A3750 /* MarketTokenCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketTokenCell.swift; sourceTree = "<group>"; };
 		96E73E2D2B2DE85A002A3750 /* MarketViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketViewModel.swift; sourceTree = "<group>"; };
+		96E73EC82B2E6740002A3750 /* MarketFilterTabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketFilterTabsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -365,6 +367,7 @@
 				96E73B572AFD40B3002A3750 /* MarketsViewController.swift */,
 				96E73E2B2B2DE857002A3750 /* MarketTokenCell.swift */,
 				96E73E2D2B2DE85A002A3750 /* MarketViewModel.swift */,
+				96E73EC82B2E6740002A3750 /* MarketFilterTabsView.swift */,
 			);
 			path = Markets;
 			sourceTree = "<group>";
@@ -577,6 +580,7 @@
 				96E73E0E2B162FCB002A3750 /* EditProfileViewController.swift in Sources */,
 				96E73E2C2B2DE857002A3750 /* MarketTokenCell.swift in Sources */,
 				96E73E2E2B2DE85A002A3750 /* MarketViewModel.swift in Sources */,
+				96E73EC92B2E6740002A3750 /* MarketFilterTabsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
