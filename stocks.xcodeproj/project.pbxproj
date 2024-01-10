@@ -59,6 +59,7 @@
 		96E73EC92B2E6740002A3750 /* MarketFilterTabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73EC82B2E6740002A3750 /* MarketFilterTabsView.swift */; };
 		96E73F132B47FB24002A3750 /* FavoritesStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73F122B47FB24002A3750 /* FavoritesStorage.swift */; };
 		96E73F152B47FB27002A3750 /* MarketToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73F142B47FB27002A3750 /* MarketToken.swift */; };
+		96E73F762B4EF7F6002A3750 /* AddFavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73F752B4EF7F6002A3750 /* AddFavoriteViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,6 +132,7 @@
 		96E73EC82B2E6740002A3750 /* MarketFilterTabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketFilterTabsView.swift; sourceTree = "<group>"; };
 		96E73F122B47FB24002A3750 /* FavoritesStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesStorage.swift; sourceTree = "<group>"; };
 		96E73F142B47FB27002A3750 /* MarketToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketToken.swift; sourceTree = "<group>"; };
+		96E73F752B4EF7F6002A3750 /* AddFavoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFavoriteViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -373,6 +375,7 @@
 				96E73E2D2B2DE85A002A3750 /* MarketViewModel.swift */,
 				96E73EC82B2E6740002A3750 /* MarketFilterTabsView.swift */,
 				96E73F142B47FB27002A3750 /* MarketToken.swift */,
+				96E73F752B4EF7F6002A3750 /* AddFavoriteViewModel.swift */,
 			);
 			path = Markets;
 			sourceTree = "<group>";
@@ -589,6 +592,7 @@
 				96E73EC92B2E6740002A3750 /* MarketFilterTabsView.swift in Sources */,
 				96E73F132B47FB24002A3750 /* FavoritesStorage.swift in Sources */,
 				96E73F152B47FB27002A3750 /* MarketToken.swift in Sources */,
+				96E73F762B4EF7F6002A3750 /* AddFavoriteViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
