@@ -62,6 +62,7 @@
 		96E73F762B4EF7F6002A3750 /* AddFavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73F752B4EF7F6002A3750 /* AddFavoriteViewModel.swift */; };
 		96E73F962B4FEE50002A3750 /* AddFavoriteTokenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73F952B4FEE50002A3750 /* AddFavoriteTokenCell.swift */; };
 		96E73F982B4FEE53002A3750 /* AddFavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73F972B4FEE53002A3750 /* AddFavoriteViewController.swift */; };
+		96E7400C2B516A45002A3750 /* UnderDevelopmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E7400B2B516A45002A3750 /* UnderDevelopmentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -137,6 +138,7 @@
 		96E73F752B4EF7F6002A3750 /* AddFavoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFavoriteViewModel.swift; sourceTree = "<group>"; };
 		96E73F952B4FEE50002A3750 /* AddFavoriteTokenCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFavoriteTokenCell.swift; sourceTree = "<group>"; };
 		96E73F972B4FEE53002A3750 /* AddFavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFavoriteViewController.swift; sourceTree = "<group>"; };
+		96E7400B2B516A45002A3750 /* UnderDevelopmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderDevelopmentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,6 +274,7 @@
 			isa = PBXGroup;
 			children = (
 				96E738E02AC38059002A3750 /* Features */,
+				96E7400A2B516A45002A3750 /* Shared */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -411,6 +414,14 @@
 				96E73F122B47FB24002A3750 /* FavoritesStorage.swift */,
 			);
 			path = Persistence;
+			sourceTree = "<group>";
+		};
+		96E7400A2B516A45002A3750 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				96E7400B2B516A45002A3750 /* UnderDevelopmentViewController.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -601,6 +612,7 @@
 				96E73F762B4EF7F6002A3750 /* AddFavoriteViewModel.swift in Sources */,
 				96E73F962B4FEE50002A3750 /* AddFavoriteTokenCell.swift in Sources */,
 				96E73F982B4FEE53002A3750 /* AddFavoriteViewController.swift in Sources */,
+				96E7400C2B516A45002A3750 /* UnderDevelopmentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
