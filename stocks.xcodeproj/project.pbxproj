@@ -30,15 +30,15 @@
 		96E739A72AC9E54F002A3750 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E739A62AC9E54F002A3750 /* AuthViewController.swift */; };
 		96E739A92AC9E552002A3750 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E739A82AC9E552002A3750 /* AuthViewModel.swift */; };
 		96E739C52AD7BD2B002A3750 /* TickerRESTDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E739C42AD7BD2B002A3750 /* TickerRESTDTO.swift */; };
-		96E739C82AD7BD2E002A3750 /* BinanceEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E739C72AD7BD2E002A3750 /* BinanceEndpoint.swift */; };
-		96E739CA2AD7BD31002A3750 /* BinanceRESTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E739C92AD7BD31002A3750 /* BinanceRESTService.swift */; };
+		96E739C82AD7BD2E002A3750 /* OKXEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E739C72AD7BD2E002A3750 /* OKXEndpoint.swift */; };
+		96E739CA2AD7BD31002A3750 /* OKXRESTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E739C92AD7BD31002A3750 /* OKXRESTService.swift */; };
 		96E739CC2AD7BD34002A3750 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E739CB2AD7BD34002A3750 /* NetworkService.swift */; };
 		96E73A1E2AD7F17A002A3750 /* KlineRESTDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73A1D2AD7F17A002A3750 /* KlineRESTDTO.swift */; };
 		96E73A7E2ADAFDB7002A3750 /* KlineDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73A7D2ADAFDB7002A3750 /* KlineDTO.swift */; };
 		96E73A802ADAFDBA002A3750 /* MiniTickerDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73A7F2ADAFDBA002A3750 /* MiniTickerDTO.swift */; };
 		96E73A822ADAFDBD002A3750 /* TickerDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73A812ADAFDBD002A3750 /* TickerDTO.swift */; };
-		96E73A852ADAFDC0002A3750 /* BinanceStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73A842ADAFDC0002A3750 /* BinanceStream.swift */; };
-		96E73A872ADAFDC3002A3750 /* BinanceWebSocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73A862ADAFDC3002A3750 /* BinanceWebSocketService.swift */; };
+		96E73A852ADAFDC0002A3750 /* OKXStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73A842ADAFDC0002A3750 /* OKXStream.swift */; };
+		96E73A872ADAFDC3002A3750 /* OKXWebSocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73A862ADAFDC3002A3750 /* OKXWebSocketService.swift */; };
 		96E73A892ADAFDC6002A3750 /* WebSocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73A882ADAFDC6002A3750 /* WebSocketService.swift */; };
 		96E73B022ADD0B63002A3750 /* AggTradeDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73B012ADD0B63002A3750 /* AggTradeDTO.swift */; };
 		96E73B042ADD0B66002A3750 /* BookTickerDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73B032ADD0B66002A3750 /* BookTickerDTO.swift */; };
@@ -106,15 +106,15 @@
 		96E739A62AC9E54F002A3750 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		96E739A82AC9E552002A3750 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		96E739C42AD7BD2B002A3750 /* TickerRESTDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerRESTDTO.swift; sourceTree = "<group>"; };
-		96E739C72AD7BD2E002A3750 /* BinanceEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceEndpoint.swift; sourceTree = "<group>"; };
-		96E739C92AD7BD31002A3750 /* BinanceRESTService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceRESTService.swift; sourceTree = "<group>"; };
+		96E739C72AD7BD2E002A3750 /* OKXEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OKXEndpoint.swift; sourceTree = "<group>"; };
+		96E739C92AD7BD31002A3750 /* OKXRESTService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OKXRESTService.swift; sourceTree = "<group>"; };
 		96E739CB2AD7BD34002A3750 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		96E73A1D2AD7F17A002A3750 /* KlineRESTDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlineRESTDTO.swift; sourceTree = "<group>"; };
 		96E73A7D2ADAFDB7002A3750 /* KlineDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlineDTO.swift; sourceTree = "<group>"; };
 		96E73A7F2ADAFDBA002A3750 /* MiniTickerDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniTickerDTO.swift; sourceTree = "<group>"; };
 		96E73A812ADAFDBD002A3750 /* TickerDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerDTO.swift; sourceTree = "<group>"; };
-		96E73A842ADAFDC0002A3750 /* BinanceStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceStream.swift; sourceTree = "<group>"; };
-		96E73A862ADAFDC3002A3750 /* BinanceWebSocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceWebSocketService.swift; sourceTree = "<group>"; };
+		96E73A842ADAFDC0002A3750 /* OKXStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OKXStream.swift; sourceTree = "<group>"; };
+		96E73A862ADAFDC3002A3750 /* OKXWebSocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OKXWebSocketService.swift; sourceTree = "<group>"; };
 		96E73A882ADAFDC6002A3750 /* WebSocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketService.swift; sourceTree = "<group>"; };
 		96E73B012ADD0B63002A3750 /* AggTradeDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AggTradeDTO.swift; sourceTree = "<group>"; };
 		96E73B032ADD0B66002A3750 /* BookTickerDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTickerDTO.swift; sourceTree = "<group>"; };
@@ -347,9 +347,9 @@
 		96E739C62AD7BD2E002A3750 /* RestApi */ = {
 			isa = PBXGroup;
 			children = (
-				96E739C72AD7BD2E002A3750 /* BinanceEndpoint.swift */,
-				96E739C92AD7BD31002A3750 /* BinanceRESTService.swift */,
 				96E739CB2AD7BD34002A3750 /* NetworkService.swift */,
+				96E739C72AD7BD2E002A3750 /* OKXEndpoint.swift */,
+				96E739C92AD7BD31002A3750 /* OKXRESTService.swift */,
 			);
 			path = RestApi;
 			sourceTree = "<group>";
@@ -357,9 +357,9 @@
 		96E73A832ADAFDC0002A3750 /* WebSocket */ = {
 			isa = PBXGroup;
 			children = (
-				96E73A842ADAFDC0002A3750 /* BinanceStream.swift */,
-				96E73A862ADAFDC3002A3750 /* BinanceWebSocketService.swift */,
 				96E73A882ADAFDC6002A3750 /* WebSocketService.swift */,
+				96E73A842ADAFDC0002A3750 /* OKXStream.swift */,
+				96E73A862ADAFDC3002A3750 /* OKXWebSocketService.swift */,
 			);
 			path = WebSocket;
 			sourceTree = "<group>";
@@ -588,15 +588,15 @@
 				96E739A72AC9E54F002A3750 /* AuthViewController.swift in Sources */,
 				96E739A92AC9E552002A3750 /* AuthViewModel.swift in Sources */,
 				96E739C52AD7BD2B002A3750 /* TickerRESTDTO.swift in Sources */,
-				96E739C82AD7BD2E002A3750 /* BinanceEndpoint.swift in Sources */,
-				96E739CA2AD7BD31002A3750 /* BinanceRESTService.swift in Sources */,
+				96E739C82AD7BD2E002A3750 /* OKXEndpoint.swift in Sources */,
+				96E739CA2AD7BD31002A3750 /* OKXRESTService.swift in Sources */,
 				96E739CC2AD7BD34002A3750 /* NetworkService.swift in Sources */,
 				96E73A1E2AD7F17A002A3750 /* KlineRESTDTO.swift in Sources */,
 				96E73A7E2ADAFDB7002A3750 /* KlineDTO.swift in Sources */,
 				96E73A802ADAFDBA002A3750 /* MiniTickerDTO.swift in Sources */,
 				96E73A822ADAFDBD002A3750 /* TickerDTO.swift in Sources */,
-				96E73A852ADAFDC0002A3750 /* BinanceStream.swift in Sources */,
-				96E73A872ADAFDC3002A3750 /* BinanceWebSocketService.swift in Sources */,
+				96E73A852ADAFDC0002A3750 /* OKXStream.swift in Sources */,
+				96E73A872ADAFDC3002A3750 /* OKXWebSocketService.swift in Sources */,
 				96E73A892ADAFDC6002A3750 /* WebSocketService.swift in Sources */,
 				96E73B022ADD0B63002A3750 /* AggTradeDTO.swift in Sources */,
 				96E73B042ADD0B66002A3750 /* BookTickerDTO.swift in Sources */,
