@@ -63,6 +63,7 @@
 		96E73F962B4FEE50002A3750 /* AddFavoriteTokenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73F952B4FEE50002A3750 /* AddFavoriteTokenCell.swift */; };
 		96E73F982B4FEE53002A3750 /* AddFavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73F972B4FEE53002A3750 /* AddFavoriteViewController.swift */; };
 		96E7400C2B516A45002A3750 /* UnderDevelopmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E7400B2B516A45002A3750 /* UnderDevelopmentViewController.swift */; };
+		96E740C02B976778002A3750 /* WalletStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E740BF2B976778002A3750 /* WalletStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,6 +140,7 @@
 		96E73F952B4FEE50002A3750 /* AddFavoriteTokenCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFavoriteTokenCell.swift; sourceTree = "<group>"; };
 		96E73F972B4FEE53002A3750 /* AddFavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFavoriteViewController.swift; sourceTree = "<group>"; };
 		96E7400B2B516A45002A3750 /* UnderDevelopmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderDevelopmentViewController.swift; sourceTree = "<group>"; };
+		96E740BF2B976778002A3750 /* WalletStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -412,6 +414,7 @@
 			children = (
 				96E73D972B15C972002A3750 /* ProfileStorage.swift */,
 				96E73F122B47FB24002A3750 /* FavoritesStorage.swift */,
+				96E740BF2B976778002A3750 /* WalletStorage.swift */,
 			);
 			path = Persistence;
 			sourceTree = "<group>";
@@ -621,6 +624,7 @@
 				96E73F962B4FEE50002A3750 /* AddFavoriteTokenCell.swift in Sources */,
 				96E73F982B4FEE53002A3750 /* AddFavoriteViewController.swift in Sources */,
 				96E7400C2B516A45002A3750 /* UnderDevelopmentViewController.swift in Sources */,
+				96E740C02B976778002A3750 /* WalletStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
