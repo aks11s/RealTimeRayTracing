@@ -64,6 +64,7 @@
 		96E73F982B4FEE53002A3750 /* AddFavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E73F972B4FEE53002A3750 /* AddFavoriteViewController.swift */; };
 		96E7400C2B516A45002A3750 /* UnderDevelopmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E7400B2B516A45002A3750 /* UnderDevelopmentViewController.swift */; };
 		96E740C02B976778002A3750 /* WalletStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E740BF2B976778002A3750 /* WalletStorage.swift */; };
+		96E7414F2B98E3C3002A3750 /* WalletViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E7414E2B98E3C3002A3750 /* WalletViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -141,6 +142,7 @@
 		96E73F972B4FEE53002A3750 /* AddFavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFavoriteViewController.swift; sourceTree = "<group>"; };
 		96E7400B2B516A45002A3750 /* UnderDevelopmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderDevelopmentViewController.swift; sourceTree = "<group>"; };
 		96E740BF2B976778002A3750 /* WalletStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletStorage.swift; sourceTree = "<group>"; };
+		96E7414E2B98E3C3002A3750 /* WalletViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -395,6 +397,7 @@
 			isa = PBXGroup;
 			children = (
 				96E73B5A2AFD40B6002A3750 /* WalletViewController.swift */,
+				96E7414E2B98E3C3002A3750 /* WalletViewModel.swift */,
 			);
 			path = Wallet;
 			sourceTree = "<group>";
@@ -625,6 +628,7 @@
 				96E73F982B4FEE53002A3750 /* AddFavoriteViewController.swift in Sources */,
 				96E7400C2B516A45002A3750 /* UnderDevelopmentViewController.swift in Sources */,
 				96E740C02B976778002A3750 /* WalletStorage.swift in Sources */,
+				96E7414F2B98E3C3002A3750 /* WalletViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
