@@ -66,6 +66,7 @@
 		96E740C02B976778002A3750 /* WalletStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E740BF2B976778002A3750 /* WalletStorage.swift */; };
 		96E7414F2B98E3C3002A3750 /* WalletViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E7414E2B98E3C3002A3750 /* WalletViewModel.swift */; };
 		96E741912B99C441002A3750 /* WalletHoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E741902B99C441002A3750 /* WalletHoldingCell.swift */; };
+		96E741B72B9A3475002A3750 /* DepositViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E741B62B9A3475002A3750 /* DepositViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -145,6 +146,7 @@
 		96E740BF2B976778002A3750 /* WalletStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletStorage.swift; sourceTree = "<group>"; };
 		96E7414E2B98E3C3002A3750 /* WalletViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewModel.swift; sourceTree = "<group>"; };
 		96E741902B99C441002A3750 /* WalletHoldingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletHoldingCell.swift; sourceTree = "<group>"; };
+		96E741B62B9A3475002A3750 /* DepositViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -401,6 +403,7 @@
 				96E73B5A2AFD40B6002A3750 /* WalletViewController.swift */,
 				96E7414E2B98E3C3002A3750 /* WalletViewModel.swift */,
 				96E741902B99C441002A3750 /* WalletHoldingCell.swift */,
+				96E741B62B9A3475002A3750 /* DepositViewController.swift */,
 			);
 			path = Wallet;
 			sourceTree = "<group>";
@@ -633,6 +636,7 @@
 				96E740C02B976778002A3750 /* WalletStorage.swift in Sources */,
 				96E7414F2B98E3C3002A3750 /* WalletViewModel.swift in Sources */,
 				96E741912B99C441002A3750 /* WalletHoldingCell.swift in Sources */,
+				96E741B72B9A3475002A3750 /* DepositViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
