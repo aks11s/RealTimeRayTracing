@@ -67,6 +67,7 @@
 		96E7414F2B98E3C3002A3750 /* WalletViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E7414E2B98E3C3002A3750 /* WalletViewModel.swift */; };
 		96E741912B99C441002A3750 /* WalletHoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E741902B99C441002A3750 /* WalletHoldingCell.swift */; };
 		96E741B72B9A3475002A3750 /* DepositViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E741B62B9A3475002A3750 /* DepositViewController.swift */; };
+		96E742322BB09C5F002A3750 /* TradeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E742312BB09C5F002A3750 /* TradeModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -147,6 +148,7 @@
 		96E7414E2B98E3C3002A3750 /* WalletViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewModel.swift; sourceTree = "<group>"; };
 		96E741902B99C441002A3750 /* WalletHoldingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletHoldingCell.swift; sourceTree = "<group>"; };
 		96E741B62B9A3475002A3750 /* DepositViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositViewController.swift; sourceTree = "<group>"; };
+		96E742312BB09C5F002A3750 /* TradeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -296,6 +298,7 @@
 				96E73B562AFD40B3002A3750 /* Markets */,
 				96E73B592AFD40B6002A3750 /* Wallet */,
 				96E73CC12B0924B8002A3750 /* Profile */,
+				96E742302BB09C5F002A3750 /* Trades */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -442,6 +445,14 @@
 				96E736A42A866C10002A3750 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		96E742302BB09C5F002A3750 /* Trades */ = {
+			isa = PBXGroup;
+			children = (
+				96E742312BB09C5F002A3750 /* TradeModels.swift */,
+			);
+			path = Trades;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -637,6 +648,7 @@
 				96E7414F2B98E3C3002A3750 /* WalletViewModel.swift in Sources */,
 				96E741912B99C441002A3750 /* WalletHoldingCell.swift in Sources */,
 				96E741B72B9A3475002A3750 /* DepositViewController.swift in Sources */,
+				96E742322BB09C5F002A3750 /* TradeModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
