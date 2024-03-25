@@ -69,6 +69,7 @@
 		96E741B72B9A3475002A3750 /* DepositViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E741B62B9A3475002A3750 /* DepositViewController.swift */; };
 		96E742322BB09C5F002A3750 /* TradeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E742312BB09C5F002A3750 /* TradeModels.swift */; };
 		96E742712BB0DE1C002A3750 /* TradeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E742702BB0DE1C002A3750 /* TradeViewModel.swift */; };
+		96E7428C2BB160AC002A3750 /* CandleChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E7428B2BB160AC002A3750 /* CandleChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,6 +152,7 @@
 		96E741B62B9A3475002A3750 /* DepositViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositViewController.swift; sourceTree = "<group>"; };
 		96E742312BB09C5F002A3750 /* TradeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeModels.swift; sourceTree = "<group>"; };
 		96E742702BB0DE1C002A3750 /* TradeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeViewModel.swift; sourceTree = "<group>"; };
+		96E7428B2BB160AC002A3750 /* CandleChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandleChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -454,6 +456,7 @@
 			children = (
 				96E742312BB09C5F002A3750 /* TradeModels.swift */,
 				96E742702BB0DE1C002A3750 /* TradeViewModel.swift */,
+				96E7428B2BB160AC002A3750 /* CandleChartView.swift */,
 			);
 			path = Trades;
 			sourceTree = "<group>";
@@ -653,6 +656,7 @@
 				96E741B72B9A3475002A3750 /* DepositViewController.swift in Sources */,
 				96E742322BB09C5F002A3750 /* TradeModels.swift in Sources */,
 				96E742712BB0DE1C002A3750 /* TradeViewModel.swift in Sources */,
+				96E7428C2BB160AC002A3750 /* CandleChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
