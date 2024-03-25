@@ -70,6 +70,7 @@
 		96E742322BB09C5F002A3750 /* TradeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E742312BB09C5F002A3750 /* TradeModels.swift */; };
 		96E742712BB0DE1C002A3750 /* TradeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E742702BB0DE1C002A3750 /* TradeViewModel.swift */; };
 		96E7428C2BB160AC002A3750 /* CandleChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E7428B2BB160AC002A3750 /* CandleChartView.swift */; };
+		96E742F62BB16AE8002A3750 /* TradeOrderBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E742F52BB16AE8002A3750 /* TradeOrderBookView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -153,6 +154,7 @@
 		96E742312BB09C5F002A3750 /* TradeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeModels.swift; sourceTree = "<group>"; };
 		96E742702BB0DE1C002A3750 /* TradeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeViewModel.swift; sourceTree = "<group>"; };
 		96E7428B2BB160AC002A3750 /* CandleChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandleChartView.swift; sourceTree = "<group>"; };
+		96E742F52BB16AE8002A3750 /* TradeOrderBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeOrderBookView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -457,6 +459,7 @@
 				96E742312BB09C5F002A3750 /* TradeModels.swift */,
 				96E742702BB0DE1C002A3750 /* TradeViewModel.swift */,
 				96E7428B2BB160AC002A3750 /* CandleChartView.swift */,
+				96E742F52BB16AE8002A3750 /* TradeOrderBookView.swift */,
 			);
 			path = Trades;
 			sourceTree = "<group>";
@@ -657,6 +660,7 @@
 				96E742322BB09C5F002A3750 /* TradeModels.swift in Sources */,
 				96E742712BB0DE1C002A3750 /* TradeViewModel.swift in Sources */,
 				96E7428C2BB160AC002A3750 /* CandleChartView.swift in Sources */,
+				96E742F62BB16AE8002A3750 /* TradeOrderBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
