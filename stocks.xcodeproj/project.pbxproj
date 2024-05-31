@@ -74,6 +74,7 @@
 		96E743972BB1A623002A3750 /* TradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E743962BB1A623002A3750 /* TradeViewController.swift */; };
 		96E744282C07E87B002A3750 /* PairPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E744272C07E87B002A3750 /* PairPickerViewController.swift */; };
 		96E7442A2C07E87E002A3750 /* PairPickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E744292C07E87E002A3750 /* PairPickerViewModel.swift */; };
+		96E744C82C0A0E52002A3750 /* OrderEntryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E744C72C0A0E52002A3750 /* OrderEntryModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -161,6 +162,7 @@
 		96E743962BB1A623002A3750 /* TradeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeViewController.swift; sourceTree = "<group>"; };
 		96E744272C07E87B002A3750 /* PairPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairPickerViewController.swift; sourceTree = "<group>"; };
 		96E744292C07E87E002A3750 /* PairPickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairPickerViewModel.swift; sourceTree = "<group>"; };
+		96E744C72C0A0E52002A3750 /* OrderEntryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderEntryModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -469,6 +471,7 @@
 				96E743962BB1A623002A3750 /* TradeViewController.swift */,
 				96E744272C07E87B002A3750 /* PairPickerViewController.swift */,
 				96E744292C07E87E002A3750 /* PairPickerViewModel.swift */,
+				96E744C72C0A0E52002A3750 /* OrderEntryModels.swift */,
 			);
 			path = Trades;
 			sourceTree = "<group>";
@@ -673,6 +676,7 @@
 				96E743972BB1A623002A3750 /* TradeViewController.swift in Sources */,
 				96E744282C07E87B002A3750 /* PairPickerViewController.swift in Sources */,
 				96E7442A2C07E87E002A3750 /* PairPickerViewModel.swift in Sources */,
+				96E744C82C0A0E52002A3750 /* OrderEntryModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
