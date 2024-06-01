@@ -75,6 +75,8 @@
 		96E744282C07E87B002A3750 /* PairPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E744272C07E87B002A3750 /* PairPickerViewController.swift */; };
 		96E7442A2C07E87E002A3750 /* PairPickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E744292C07E87E002A3750 /* PairPickerViewModel.swift */; };
 		96E744C82C0A0E52002A3750 /* OrderEntryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E744C72C0A0E52002A3750 /* OrderEntryModels.swift */; };
+		96E745482C0BBC75002A3750 /* OrderEntryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E745472C0BBC75002A3750 /* OrderEntryViewModel.swift */; };
+		96E7454A2C0BBC78002A3750 /* OrderStepperFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E745492C0BBC78002A3750 /* OrderStepperFieldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -163,6 +165,8 @@
 		96E744272C07E87B002A3750 /* PairPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairPickerViewController.swift; sourceTree = "<group>"; };
 		96E744292C07E87E002A3750 /* PairPickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairPickerViewModel.swift; sourceTree = "<group>"; };
 		96E744C72C0A0E52002A3750 /* OrderEntryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderEntryModels.swift; sourceTree = "<group>"; };
+		96E745472C0BBC75002A3750 /* OrderEntryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderEntryViewModel.swift; sourceTree = "<group>"; };
+		96E745492C0BBC78002A3750 /* OrderStepperFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderStepperFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -472,6 +476,8 @@
 				96E744272C07E87B002A3750 /* PairPickerViewController.swift */,
 				96E744292C07E87E002A3750 /* PairPickerViewModel.swift */,
 				96E744C72C0A0E52002A3750 /* OrderEntryModels.swift */,
+				96E745472C0BBC75002A3750 /* OrderEntryViewModel.swift */,
+				96E745492C0BBC78002A3750 /* OrderStepperFieldView.swift */,
 			);
 			path = Trades;
 			sourceTree = "<group>";
@@ -677,6 +683,8 @@
 				96E744282C07E87B002A3750 /* PairPickerViewController.swift in Sources */,
 				96E7442A2C07E87E002A3750 /* PairPickerViewModel.swift in Sources */,
 				96E744C82C0A0E52002A3750 /* OrderEntryModels.swift in Sources */,
+				96E745482C0BBC75002A3750 /* OrderEntryViewModel.swift in Sources */,
+				96E7454A2C0BBC78002A3750 /* OrderStepperFieldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
