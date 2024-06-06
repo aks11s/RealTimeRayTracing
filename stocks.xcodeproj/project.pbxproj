@@ -78,6 +78,7 @@
 		96E745482C0BBC75002A3750 /* OrderEntryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E745472C0BBC75002A3750 /* OrderEntryViewModel.swift */; };
 		96E7454A2C0BBC78002A3750 /* OrderStepperFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E745492C0BBC78002A3750 /* OrderStepperFieldView.swift */; };
 		96E745AE2C0BCE8B002A3750 /* OrderEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E745AD2C0BCE8B002A3750 /* OrderEntryViewController.swift */; };
+		96E745DD2C120672002A3750 /* OrderModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E745DC2C120672002A3750 /* OrderModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -169,6 +170,7 @@
 		96E745472C0BBC75002A3750 /* OrderEntryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderEntryViewModel.swift; sourceTree = "<group>"; };
 		96E745492C0BBC78002A3750 /* OrderStepperFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderStepperFieldView.swift; sourceTree = "<group>"; };
 		96E745AD2C0BCE8B002A3750 /* OrderEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderEntryViewController.swift; sourceTree = "<group>"; };
+		96E745DC2C120672002A3750 /* OrderModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -319,6 +321,7 @@
 				96E73B592AFD40B6002A3750 /* Wallet */,
 				96E73CC12B0924B8002A3750 /* Profile */,
 				96E742302BB09C5F002A3750 /* Trades */,
+				96E745DB2C120672002A3750 /* Orders */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -483,6 +486,14 @@
 				96E745AD2C0BCE8B002A3750 /* OrderEntryViewController.swift */,
 			);
 			path = Trades;
+			sourceTree = "<group>";
+		};
+		96E745DB2C120672002A3750 /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				96E745DC2C120672002A3750 /* OrderModels.swift */,
+			);
+			path = Orders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -689,6 +700,7 @@
 				96E745482C0BBC75002A3750 /* OrderEntryViewModel.swift in Sources */,
 				96E7454A2C0BBC78002A3750 /* OrderStepperFieldView.swift in Sources */,
 				96E745AE2C0BCE8B002A3750 /* OrderEntryViewController.swift in Sources */,
+				96E745DD2C120672002A3750 /* OrderModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
