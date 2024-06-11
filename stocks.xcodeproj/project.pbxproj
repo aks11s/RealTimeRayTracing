@@ -85,6 +85,7 @@
 		96E747912C1590B5002A3750 /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E747902C1590B5002A3750 /* OrdersViewController.swift */; };
 		96E747AC2C18D2B5002A3750 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E747AB2C18D2B5002A3750 /* ImageLoader.swift */; };
 		96E7484D2C18ED6C002A3750 /* TokenIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E7484C2C18ED6C002A3750 /* TokenIcon.swift */; };
+		96E748712C19044F002A3750 /* TokenPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E748702C19044F002A3750 /* TokenPlaceholder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -183,6 +184,7 @@
 		96E747902C1590B5002A3750 /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
 		96E747AB2C18D2B5002A3750 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		96E7484C2C18ED6C002A3750 /* TokenIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenIcon.swift; sourceTree = "<group>"; };
+		96E748702C19044F002A3750 /* TokenPlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenPlaceholder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -310,6 +312,7 @@
 				96E739532AC6EB26002A3750 /* AuthTextField.swift */,
 				96E73C242AFFB315002A3750 /* CoinCardView.swift */,
 				96E73C6B2AFFD9B4002A3750 /* FeatureCardView.swift */,
+				96E748702C19044F002A3750 /* TokenPlaceholder.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -725,6 +728,7 @@
 				96E747912C1590B5002A3750 /* OrdersViewController.swift in Sources */,
 				96E747AC2C18D2B5002A3750 /* ImageLoader.swift in Sources */,
 				96E7484D2C18ED6C002A3750 /* TokenIcon.swift in Sources */,
+				96E748712C19044F002A3750 /* TokenPlaceholder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
