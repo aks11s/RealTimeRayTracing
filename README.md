@@ -48,16 +48,26 @@ stocks/
 ├── Data/           Network (OKX REST/WebSocket, DTOs) + Persistence
 ├── Navigator/      MainCoordinator, TabBarController
 ├── Presentation/   Features: Home · Auth · Onboarding · Markets · Trades · Orders · Wallet · Profile
-└── Resources/      Assets, fonts
+└── Resources/      Assets, README screenshots
 ```
 
 ## Tech stack
 
-UIKit with programmatic layout, SnapKit for constraints, DGCharts for the charts, Starscream for the OKX WebSocket, and Swift Concurrency throughout. Local data lives in `UserDefaults`.
+UIKit with programmatic layout and Swift Concurrency throughout. Local data lives in `UserDefaults`.
+
+Dependencies (Swift Package Manager):
+
+- [SnapKit](https://github.com/SnapKit/SnapKit) 6.0 — Auto Layout constraints
+- [Alamofire](https://github.com/Alamofire/Alamofire) 5.12 — OKX REST calls
+- [Starscream](https://github.com/daltoniam/Starscream) 4.0 — OKX WebSocket streams
+- [DGCharts](https://github.com/ChartsOrg/Charts) 5.1 — candlestick and sparkline charts
 
 ## Running it
 
+Requires Xcode 16+ (SnapKit 6 and Alamofire 5.12 need the Swift 6 toolchain) and iOS 16.4+.
+
 Open `stocks.xcodeproj`, let Xcode resolve the packages, pick a simulator, and run. No API keys or setup needed — the OKX endpoints are public.
 
+---
 
-
+**P.S.** The repository history was rewritten before publishing, which is why the activity feed shows recent force-pushes.
