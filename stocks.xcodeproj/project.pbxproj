@@ -1054,7 +1054,7 @@
 			repositoryURL = "https://github.com/SnapKit/SnapKit";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 5.6.0;
+				minimumVersion = 6.0.0;
 			};
 		};
 		96E737522AC1D804002A3750 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
